@@ -1,0 +1,16 @@
+.input-field {
+    /* padding: 0 30px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px; */
+    
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    padding: 0 30px;
+    font-size: 18px;
+    width: 400px;
+}

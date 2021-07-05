@@ -1,10 +1,10 @@
 import React, {useState, useEffect} from 'react';
 import ReactAutocomplete from 'react-autocomplete';
 import axios  from 'axios';
-import {useSearch, useDebounce, useSearchForm} from "./hooks"
-import Input from './components/input';
+import {useSearch, useDebounce, useSearchForm} from "../../hooks"
+import Input from '../../components/input';
 
-function App() {
+function Autocomplete() {
   // const [value, setValue] = useState('');
   const [items, setItems] = useState([]);
   const {searchValue, onSearchChange} =useSearchForm();
@@ -42,4 +42,4 @@ function App() {
   )
 }
 
-export default App;
+export default Autocomplete;
